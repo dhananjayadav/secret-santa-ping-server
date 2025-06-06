@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-service
+  name: github-service
   description: This is a sample service registered in Backstage
   annotations:
     github.com/project-slug: dy-org/dy-service
 spec:
   type: service
   lifecycle: production
-  owner: your-team-name
+  owner: github-team-name
