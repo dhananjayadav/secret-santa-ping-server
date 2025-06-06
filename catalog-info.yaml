@@ -4,7 +4,8 @@ metadata:
   name: github-service
   description: This is a sample service registered in Backstage
   annotations:
-    github.com/project-slug: dy-org/dy-service
+    github.com/project-slug: dev-org/my-repo
+    github.com/team-slug: dev-org/my-team
 spec:
   type: service
   lifecycle: production
