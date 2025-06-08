@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: github-service-dev
+  name: github-service
   description: This is a sample service registered in Backstage
   annotations:
     github.com/project-slug: dev-org/my-repo
