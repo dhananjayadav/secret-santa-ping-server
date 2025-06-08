@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: github-team-name
+  description: GitHub team responsible for github-service
+spec:
+  type: team
+  profile:
+    displayName: GitHub Team
+  children: []
